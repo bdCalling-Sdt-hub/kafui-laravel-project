@@ -4,10 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\RquestQueate;
+use Mail;
+use App\Mail\request_queate;
+use App\Mail\RequestMail;
 class RequestController extends Controller
 {
     public function create_request_queat(Request $request)
 {
+    $adminEmail = 'engrabdurrahman4991@gmail.com';
     // Validate the request data
     $request->validate([
         'install_system' => 'required',
@@ -43,7 +47,8 @@ class RequestController extends Controller
 
     // Save the model to the database
     $requestQueat->save();
-
+    $requestData = $request->all();
+    Mail::to($adminEmail)->send(new RequestMail($requestData));
     // Return a response, such as a redirect or a success message
     return redirect()->back()->with('success', 'RequestQueat created successfully!');
 }

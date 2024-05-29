@@ -59,5 +59,9 @@ class FrontViewController extends Controller
         return view('Frontend.single_project');
     }
 
+    public function task(){
+        return view('Frontend.task');
+    }
+
 
 }

@@ -6,10 +6,15 @@ use Illuminate\Http\Request;
 use App\Http\Requests\ContactRequest;
 use App\Models\Contact;
 use validated;
+use App\Mail\ContactMessage;
+use Mail;
 class ContactController extends Controller
 {
     public function post_contact(ContactRequest $request)
     {
+        $adminEmail = 'engrabdurrahman4991@gmail.com';
+
+
         // Validate the incoming request
         $validatedData = $request->validated();
         
@@ -22,10 +27,16 @@ class ContactController extends Controller
         $contact->phone = $validatedData['contact-phone'];
         $contact->service = $validatedData['contact-service'];
         $contact->infos = $validatedData['contact-infos'];
-        
+       
         // Save the contact to the database
         $contact->save();
-        
+        Mail::to($adminEmail)->send(new ContactMessage(
+            $contact->name,
+            $contact->email,
+            $contact->phone,
+            $contact->service,
+            $contact->infos
+        ));
         // Optionally, you can return a response indicating success or redirect somewhere
         return response()->json(['message' => 'Contact saved successfully'], 200);
     }

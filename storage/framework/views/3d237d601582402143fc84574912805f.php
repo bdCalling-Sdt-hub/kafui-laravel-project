@@ -540,7 +540,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button  type="submit" class="btn btn--secondary w-100">submit request <i
+                                    <button type="submit" class="btn btn--secondary w-100">submit request <i
                                             class="energia-arrow-right"></i></button>
                                 </div>
                                 <div class="col-12">
