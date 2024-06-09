@@ -8,7 +8,7 @@
                 </li>
             <?php else: ?>
                 <li class="page-item">
-                    <a class="page-link" href="<?php echo e($paginator->previousPageUrl()); ?>" rel="prev">
+                    <a class="page-link" href="<?php echo e($paginator->previousPageUrl(), false); ?>" rel="prev">
                         <?php echo __('pagination.previous'); ?>
 
                     </a>
@@ -18,7 +18,7 @@
             
             <?php if($paginator->hasMorePages()): ?>
                 <li class="page-item">
-                    <a class="page-link" href="<?php echo e($paginator->nextPageUrl()); ?>" rel="next"><?php echo __('pagination.next'); ?></a>
+                    <a class="page-link" href="<?php echo e($paginator->nextPageUrl(), false); ?>" rel="next"><?php echo __('pagination.next'); ?></a>
                 </li>
             <?php else: ?>
                 <li class="page-item disabled" aria-disabled="true">

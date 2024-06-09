@@ -79,41 +79,46 @@
               <div class="col-12 col-lg-6">
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-1" href="#collapse01-1">Which Plan Is Right For Me?</a></div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-1" href="#collapse01-1">Would I be completely offgrid with these systems?</a></div>
                     <div class="collapse" id="collapse01-1" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body">The Solar system will produce most or all the energy your home requires during the day depending on the size of system go for and you could achieve a very large portion of your consumption from the solar panels.</div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="card active-acc">
-                    <div class="card-heading"><a class="card-link  " data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-3" href="#collapse01-3">Do I have to commit to a contract? </a></div>
+                    <div class="card-heading"><a class="card-link  " data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-3" href="#collapse01-3">What warranties do you offer? </a></div>
                     <div class="collapse show" id="collapse01-3" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
-                    </div>
+                      <div class="card-body">We offer standard warranties of 12-years on the panels, 5-years on the Inverters, and 5-years on Lithium batteries. There is an option for extended warranties of 10-years available at an additional cost.</div></a></div>                    
                   </div>
                 </div>
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-5" href="#collapse01-5">What Payment Methods Are Available?</a></div>
-                    <div class="collapse" id="collapse01-5" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-7" href="#collapse01-7">What if I pick the wrong plan?</a></div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-7" href="#collapse01-7"> Is solar more expensive than other energy efficiency measures? </a></div>
                     <div class="collapse" id="collapse01-7" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body">Solar is generally considered a cost-effective energy efficiency measure in the long run, despite initial upfront costs. It might be more expensive initially, but it can lead to significant savings over time due to reduced electricity bills.</div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-9" href="#collapse01-9">Any contracts or commitments?</a></div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-2" href="#collapse01-2"> What is the payback period for a solar system? </a></div>
+                    <div class="collapse" id="collapse01-2" data-bs-parent="#accordion03">
+                      <div class="card-body">The payback period for a residential or commercial solar system varies depending on factors like location, system size and type, electricity rates, time of use, and monthly energy consumption. It typically ranges from 4 to 10 years.</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card">
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-9" href="#collapse01-9">How long do solar systems last?</a></div>
                     <div class="collapse" id="collapse01-9" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body">Solar panels can last 25 to 30 years or more with proper maintenance. While energy production might decrease slightly over time, modern solar panels have warranties that guarantee a certain level of performance over their lifespan. Inverters can last between 5 to 10 years depending on the model and the operating environment and Lithium batteries typically last beyond 10 years if used according to the recommended guidelines.</div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-11" href="#collapse01-11">Are there payment plans or financial assistance programs to help purchase the system?</a></div>
+                    <div class="collapse" id="collapse01-11" data-bs-parent="#accordion03">
+                      <div class="card-body">Yes, we have partnerships with several financial institutions in the country who can provide a renewable energy loan. Terms and conditions apply. Kindly contact us for further information.</div>
                     </div>
                   </div>
                 </div>
@@ -121,41 +126,66 @@
               <div class="col-12 col-lg-6">
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-2" href="#collapse01-2">What are my payment options? </a></div>
-                    <div class="collapse" id="collapse01-2" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-5" href="#collapse01-5">Will I be able to sell surplus energy to the grid? is your equipment compliant? </a></div>
+                    <div class="collapse" id="collapse01-5" data-bs-parent="#accordion03">
+                      <div class="card-body">Yes, our inverters are grid-interactive and can be used to trade surplus energy with the utility provider, plus these come with 10 years extended warranty. Terms and conditions apply and approval from the utility and regulator are required before this can be done.</div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-4" href="#collapse01-4">How does the free trial work?</a></div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-4" href="#collapse01-4">If there is a power outage at night, how long will the batteries last? Can it supply my house with power throughout the night?</a></div>
                     <div class="collapse" id="collapse01-4" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body">It depends on your battery capacity and consumption patterns. It is therefore important to speak to one of our advisors to help you in sizing the battery bank correctly.</div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-6" href="#collapse01-6">When should I receive my Shipment?</a></div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-6" href="#collapse01-6">What about the heavy appliances in my house, will I be able to use them with these systems?</a></div>
                     <div class="collapse" id="collapse01-6" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body"> Yes and No, depending on the size of your inverter you may or not be able to use some of these large appliances during a power outage. The good news is that the system is intelligent and can share excess solar energy during the day with these large appliances.</div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="card">
-                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-8" href="#collapse01-8">How do I cancel my Shipment?</a></div>
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-8" href="#collapse01-8">How about Pumps? I need my borehole to work on the solar system.</a></div>
                     <div class="collapse" id="collapse01-8" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body">: Not a problem, most of our product offerings can support small borehole and booster pumps without a problem.</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card">
+                    <div class="card-heading"><a class="card-link collapsed" data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-12" href="#collapse01-12">Can solar provide power for commercial facilities?</a></div>
+                    <div class="collapse" id="collapse01-12" data-bs-parent="#accordion03">
+                      <div class="card-body"> 
+                        Yes, we have commercial grade systems ranging from 50KW to 1.5MW and above with commercial-grade Energy Storage Systems. These systems can be installed for commercial facilities such as:
+                          <ul class="list-unstyled advantages-list">
+                            <li> Factories </li>
+                            <li  type="square"> Hotels </li>
+                            <li> Office Complexes  </li>
+                            <li> Shopping Malls </li>
+                            <li> Schools </li>
+                            <li> Churches </li>
+                            <li> Apartment Complexes  </li>
+                            <li> Hostels </li>
+                            <li> Universities  </li>
+                            <p>And for critical infrastructure such as:</p>
+                            <li> Hospitals </li>
+                            <li> Public Services Buildings </li>
+                            <p> We also provide carport installations for such facilities if rooftop installation proves to be a challenge. </p> 
+                        </ul>                                               
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div class="card active-acc">
-                    <div class="card-heading"><a class="card-link  " data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-10" href="#collapse01-10">If I have questions, where can I find answers?</a></div>
+                    <div class="card-heading"><a class="card-link  " data-hover="" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse01-10" href="#collapse01-10">Do solar systems require operations and maintenance (O&M)?</a></div>
                     <div class="collapse show" id="collapse01-10" data-bs-parent="#accordion03">
-                      <div class="card-body">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to</div>
+                      <div class="card-body">Solar systems generally require minimal operations and maintenance. Periodic cleaning of panels and monitoring of system performance are recommended to ensure optimal energy production.</div>
                     </div>
                   </div>
                 </div>

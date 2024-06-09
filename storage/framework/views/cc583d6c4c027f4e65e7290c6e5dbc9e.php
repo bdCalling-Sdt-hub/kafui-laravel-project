@@ -10,7 +10,7 @@
 <?php $component->withAttributes([]); ?>
 
 <?php if(! empty($greeting)): ?>
-# <?php echo e($greeting); ?>
+# <?php echo e($greeting, false); ?>
 
 <?php else: ?>
 <?php if($level === 'error'): ?>
@@ -22,7 +22,7 @@
 
 
 <?php $__currentLoopData = $introLines; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $line): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-<?php echo e($line); ?>
+<?php echo e($line, false); ?>
 
 
 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
@@ -45,7 +45,7 @@
 <?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
 <?php endif; ?>
 <?php $component->withAttributes(['url' => \Illuminate\View\Compilers\BladeCompiler::sanitizeComponentAttribute($actionUrl),'color' => \Illuminate\View\Compilers\BladeCompiler::sanitizeComponentAttribute($color)]); ?>
-<?php echo e($actionText); ?>
+<?php echo e($actionText, false); ?>
 
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
@@ -61,18 +61,18 @@
 
 
 <?php $__currentLoopData = $outroLines; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $line): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-<?php echo e($line); ?>
+<?php echo e($line, false); ?>
 
 
 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
 
 <?php if(! empty($salutation)): ?>
-<?php echo e($salutation); ?>
+<?php echo e($salutation, false); ?>
 
 <?php else: ?>
 <?php echo app('translator')->get('Regards'); ?>,<br>
-<?php echo e(config('app.name')); ?>
+<?php echo e(config('app.name'), false); ?>
 
 <?php endif; ?>
 
@@ -85,7 +85,7 @@
     [
         'actionText' => $actionText,
     ]
-); ?> <span class="break-all">[<?php echo e($displayableActionUrl); ?>](<?php echo e($actionUrl); ?>)</span>
+); ?> <span class="break-all">[<?php echo e($displayableActionUrl, false); ?>](<?php echo e($actionUrl, false); ?>)</span>
  <?php $__env->endSlot(); ?>
 <?php endif; ?>
  <?php echo $__env->renderComponent(); ?>

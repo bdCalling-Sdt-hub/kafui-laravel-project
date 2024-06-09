@@ -9,7 +9,7 @@
       -->
 <section class="page-title page-title-4" id="page-title">
     <div class="page-title-wrap bg-overlay bg-overlay-dark-2">
-        <div class="bg-section"><img src="<?php echo e(asset('assets/images/page-titles/4.jpg')); ?>" alt="Background" /></div>
+        <div class="bg-section"><img src="<?php echo e(asset('assets/images/page-titles/4.jpg'), false); ?>" alt="Background" /></div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5">
@@ -17,7 +17,7 @@
                         <h1 class="title-heading">Pricing</h1>
                         <p class="title-desc">We offer products, solutions, and services across the entire energy value
                             chain. We support our customers on their way to a more sustainable future.</p>
-                        <div class="title-action"> <a class="btn btn--white" href="<?php echo e(route('contact')); ?>"> <span>contact
+                        <div class="title-action"> <a class="btn btn--white" href="<?php echo e(route('contact'), false); ?>"> <span>contact
                                     us</span><i class="energia-arrow-right"></i></a></div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
     <div class="breadcrumb-wrap">
         <div class="container">
             <ol class="breadcrumb d-flex">
-                <li class="breadcrumb-item"><a href="<?php echo e(url('/')); ?>">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo e(url('/'), false); ?>">Home</a></li>
                 <li class="breadcrumb-item"><a href="">company</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Pricing</li>
             </ol>
@@ -63,7 +63,7 @@
                             </div>
                             <div class="pricing-price">
                                 <p> <span class="currency">$50</span><span class="time"> Month</span></p><a
-                                    class="btn btn--secondary" href="<?php echo e(route('contact')); ?>">purchase now <i
+                                    class="btn btn--secondary" href="<?php echo e(route('contact'), false); ?>">purchase now <i
                                         class="energia-arrow-right"></i></a>
                             </div>
                             <div class="pricing-list">
@@ -89,7 +89,7 @@
                             </div>
                             <div class="pricing-price">
                                 <p> <span class="currency">$70</span><span class="time"> Month</span></p><a
-                                    class="btn btn--secondary" href="<?php echo e(route('contact')); ?>">purchase now <i
+                                    class="btn btn--secondary" href="<?php echo e(route('contact'), false); ?>">purchase now <i
                                         class="energia-arrow-right"></i></a>
                             </div>
                             <div class="pricing-list">
@@ -116,7 +116,7 @@
                             </div>
                             <div class="pricing-price">
                                 <p> <span class="currency">$90</span><span class="time"> Month</span></p><a
-                                    class="btn btn--secondary" href="<?php echo e(route('contact')); ?>">purchase now <i
+                                    class="btn btn--secondary" href="<?php echo e(route('contact'), false); ?>">purchase now <i
                                         class="energia-arrow-right"></i></a>
                             </div>
                             <div class="pricing-list">
@@ -141,7 +141,7 @@
     <!-- End .container-->
     <div class="container">
         <div class="more-prices">
-            <p>Sustainable, reliable & affordable energy systems, <a href="<?php echo e(route('service')); ?>">find your solutions
+            <p>Sustainable, reliable & affordable energy systems, <a href="<?php echo e(route('service'), false); ?>">find your solutions
                     now! </a></p>
         </div>
     </div>
@@ -153,7 +153,7 @@
       ============================
       -->
 <section class="features features-2 bg-overlay bg-overlay-theme2" id="features-2">
-    <div class="bg-section"> <img src="<?php echo e(asset('assets/images/background/2.jpg')); ?>" alt="Background" /></div>
+    <div class="bg-section"> <img src="<?php echo e(asset('assets/images/background/2.jpg'), false); ?>" alt="Background" /></div>
     <div class="container">
         <div class="heading heading-2 heading-light heading-light2">
             <div class="row">
@@ -171,9 +171,9 @@
                         expertise for every step.</p>
                     <p class="heading-desc">Raw polycrystalline silicon for PV manufacturing. Offered in various grades
                         and formats including chunks, chips, powder and ingot.</p>
-                    <div class="actions-holder"><a class="btn btn--primary btn--inversed" href="<?php echo e(route('contact')); ?>">
+                    <div class="actions-holder"><a class="btn btn--primary btn--inversed" href="<?php echo e(route('contact'), false); ?>">
                             get started<i class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white"
-                            href="<?php echo e(route('about')); ?>">explore our plans</a></div>
+                            href="<?php echo e(route('about'), false); ?>">explore our plans</a></div>
                 </div>
             </div>
             <!-- End .row-->
@@ -188,7 +188,7 @@
                             <h4>Save Your Money</h4>
                             <p>Save money on utilities or increase the value of your home by installing solar panels as
                                 a great option.</p>
-                        </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
+                        </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
                         </a>
                     </div>
                     <!-- End .feature-panel-->
@@ -202,7 +202,7 @@
                             <h4>Home Is Energy</h4>
                             <p>Everyday the sun provides us with abundance of free energy by placing solar panels on
                                 your roof.</p>
-                        </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
+                        </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
                         </a>
                     </div>
                     <!-- End .feature-panel-->
@@ -216,7 +216,7 @@
                             <h4>Consult &amp; Planning</h4>
                             <p>Our remote industrial solar systems are designed to reliably power our clients critical.
                             </p>
-                        </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
+                        </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
                         </a>
                     </div>
                     <!-- End .feature-panel-->
@@ -230,7 +230,7 @@
                             <h4>Certified Engineers</h4>
                             <p>Our sales engineers on our staff have experience and can design any complete solar
                                 system.</p>
-                        </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
+                        </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span>
                         </a>
                     </div>
                     <!-- End .feature-panel-->
@@ -241,7 +241,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="more-features more-features-3">
-                    <p>Sustainable, reliable & affordable energy systems, <a href="<?php echo e(route('service')); ?>">Find Your
+                    <p>Sustainable, reliable & affordable energy systems, <a href="<?php echo e(route('service'), false); ?>">Find Your
                             Solution Now! </a></p>
                 </div>
             </div>
@@ -253,12 +253,12 @@
             <div class="row">
                 <div class="col-12 col-lg-5 img-card-holder">
                     <div class="img-card img-card-2 bg-overlay bg-overlay-theme">
-                        <div class="bg-section"><img src="<?php echo e(asset('assets/images/contact/2.jpg')); ?>" alt="image" /></div>
+                        <div class="bg-section"><img src="<?php echo e(asset('assets/images/contact/2.jpg'), false); ?>" alt="image" /></div>
                         <div class="card-content">
                             <div class="content-top">
                                 <p>As a world wide distributor of solar supplies we endeavor provide fast and
                                     knowledgeable service, we can get all the materials you need by sea or air.</p><a
-                                    href="<?php echo e(route('contact')); ?>"><i class="energia-arrow-right"></i>global office map</a>
+                                    href="<?php echo e(route('contact'), false); ?>"><i class="energia-arrow-right"></i>global office map</a>
                             </div>
                             <div class="content-bottom">
                                 <ul class="list-unstyled contact-infos">
@@ -271,7 +271,7 @@
                                     <li class="contact-info"><i class="energia-clock-Icon"></i>
                                         <p>Mon - Fri: 8:00 am - 7:00 pm </p>
                                     </li>
-                                </ul><a class="btn btn--white" href="<?php echo e(route('contact')); ?>">contact us <i
+                                </ul><a class="btn btn--white" href="<?php echo e(route('contact'), false); ?>">contact us <i
                                         class="energia-arrow-right"></i></a>
                             </div>
                         </div>
@@ -283,7 +283,7 @@
                             <h5 class="card-heading">Request A Quote</h5>
                             <p class="card-desc">We take great pride in everything that we do, control over products
                                 allows us to ensure our customers receive the best quality service.</p>
-                            <form class="requestForm" method="post" action="<?php echo e(route('Order')); ?>">
+                            <form class="requestForm" method="post" action="<?php echo e(route('Order'), false); ?>">
                                 <?php echo csrf_field(); ?>
                                 <div class="mb-20">
                                     <div class="row">
@@ -376,7 +376,7 @@
       ============================
       -->
 <section class="testimonial testimonial-3 bg-overlay bg-overlay-white2">
-    <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/wavy-pattern.png')); ?>" alt="background" /></div>
+    <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/wavy-pattern.png'), false); ?>" alt="background" /></div>
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-4">
@@ -387,7 +387,7 @@
                             <div class="counter-num"> <span class="counting" data-counterup-nums="25"
                                     data-counterup-beginat="12">25</span></div>
                             <div class="counter-img">
-                                <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg')); ?>"
+                                <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg'), false); ?>"
                                         alt="image" /></div><i class="flaticon-020-factory"></i>
                             </div>
                         </div>
@@ -440,7 +440,7 @@
                 </div>
                 <div class="testimonial-thumbs">
                     <div class="testimonial-thumb active" data-hover="">
-                        <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/1.jpg')); ?>"
+                        <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/1.jpg'), false); ?>"
                                 alt="Testimonial Author" /></div>
                         <div class="thumb-body">
                             <h6>sami wade</h6>
@@ -448,7 +448,7 @@
                         </div>
                     </div>
                     <div class="testimonial-thumb" data-hover="">
-                        <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/2.jpg')); ?>"
+                        <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/2.jpg'), false); ?>"
                                 alt="Testimonial Author" /></div>
                         <div class="thumb-body">
                             <h6>john peter</h6>
@@ -456,7 +456,7 @@
                         </div>
                     </div>
                     <div class="testimonial-thumb" data-hover="">
-                        <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/3.jpg')); ?>"
+                        <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/3.jpg'), false); ?>"
                                 alt="Testimonial Author" /></div>
                         <div class="thumb-body">
                             <h6>sony blake</h6>

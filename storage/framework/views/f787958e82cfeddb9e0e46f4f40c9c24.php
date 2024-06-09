@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
+<html lang="<?php echo e(str_replace('_', '-', app()->getLocale()), false); ?>">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,14 +28,14 @@
                             <nav class="-mx-3 flex flex-1 justify-end">
                                 <?php if(auth()->guard()->check()): ?>
                                     <a
-                                        href="<?php echo e(url('/dashboard')); ?>"
+                                        href="<?php echo e(url('/dashboard'), false); ?>"
                                         class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                                     >
                                         Dashboard
                                     </a>
                                 <?php else: ?>
                                     <a
-                                        href="<?php echo e(route('login')); ?>"
+                                        href="<?php echo e(route('login'), false); ?>"
                                         class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                                     >
                                         Log in
@@ -43,7 +43,7 @@
 
                                     <?php if(Route::has('register')): ?>
                                         <a
-                                            href="<?php echo e(route('register')); ?>"
+                                            href="<?php echo e(route('register'), false); ?>"
                                             class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                                         >
                                             Register
@@ -163,7 +163,7 @@
                     </main>
 
                     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-                        Laravel v<?php echo e(Illuminate\Foundation\Application::VERSION); ?> (PHP v<?php echo e(PHP_VERSION); ?>)
+                        Laravel v<?php echo e(Illuminate\Foundation\Application::VERSION, false); ?> (PHP v<?php echo e(PHP_VERSION, false); ?>)
                     </footer>
                 </div>
             </div>

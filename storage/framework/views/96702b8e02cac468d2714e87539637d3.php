@@ -14,7 +14,7 @@
               <h3 class="d-none">High Efficiency Solar Cells For Manufacturers</h3>
               <div class="breadcrumb-wrap">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="<?php echo e(url('/')); ?>">Home</a></li>
+                  <li class="breadcrumb-item"><a href="<?php echo e(url('/'), false); ?>">Home</a></li>
                   <li class="breadcrumb-item"><a href="projects-modern.html">projects</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Expanding The Solar Supply Chain Finance Program</li>
                 </ol>
@@ -38,18 +38,18 @@
         <div class="project-intro"> 
           <div class="container"> 
             <div class="row"> 
-              <div class="project-img"> <img src="<?php echo e(asset('assets/images/projects/single/1.jpg')); ?>" alt="image"/>
+              <div class="project-img"> <img src="<?php echo e(asset('assets/images/projects/single/1.jpg'), false); ?>" alt="image"/>
                 <div class="project-panel">
                   <div class="project-panel-holder"> 
                     <div class="project-content"> 
-                      <div class="project-cat"><a href="<?php echo e(route('project')); ?>">finance</a><a href="<?php echo e(route('project')); ?>">supply chain</a></div>
+                      <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">finance</a><a href="<?php echo e(route('project'), false); ?>">supply chain</a></div>
                       <div class="project-title">
-                        <h4><a href="<?php echo e(route('project')); ?>">Expanding The Solar Supply Chain Finance Program</a></h4>
+                        <h4><a href="<?php echo e(route('project'), false); ?>">Expanding The Solar Supply Chain Finance Program</a></h4>
                       </div>
                       <div class="project-desc">
                         <p>We has announced the expansion of its solar supply chain finance (SCF) program for PV module manufacturers...</p>
                       </div>
-                      <div class="project-more"><a class="btn btn--primary" href="<?php echo e(route('requestQueate')); ?>">request a quote <i class="energia-arrow-right"></i></a></div>
+                      <div class="project-more"><a class="btn btn--primary" href="<?php echo e(route('requestQueate'), false); ?>">request a quote <i class="energia-arrow-right"></i></a></div>
                     </div>
                   </div>
                 </div>
@@ -93,7 +93,7 @@
                         </tr>
                       </tbody>
                     </table>
-                  </div><a class="btn btn--secondary" href="<?php echo e(route('contact')); ?>">schedule an appintment <i class="energia-arrow-right"></i></a>
+                  </div><a class="btn btn--secondary" href="<?php echo e(route('contact'), false); ?>">schedule an appintment <i class="energia-arrow-right"></i></a>
                 </div>
               </div>
               <!-- End .row-->
@@ -109,10 +109,10 @@
             <div class=" ">
               <div class="project-panel">
                 <div class="project-panel-holder">
-                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/1.jpg')); ?>" alt=" item"/>
+                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/1.jpg'), false); ?>" alt=" item"/>
                     <div class="project-hover">
                       <div class="project-action">
-                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/1.jpg')); ?>" title="wind generators item"></a></div>
+                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/1.jpg'), false); ?>" title="wind generators item"></a></div>
                       </div>
                       <!-- End .project-action -->
                     </div>
@@ -127,10 +127,10 @@
             <div class=" ">
               <div class="project-panel">
                 <div class="project-panel-holder">
-                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/2.jpg')); ?>" alt=" item"/>
+                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/2.jpg'), false); ?>" alt=" item"/>
                     <div class="project-hover">
                       <div class="project-action">
-                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/2.jpg')); ?>" title="solar panels item"></a></div>
+                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/2.jpg'), false); ?>" title="solar panels item"></a></div>
                       </div>
                       <!-- End .project-action -->
                     </div>
@@ -145,10 +145,10 @@
             <div>
               <div class="project-panel">
                 <div class="project-panel-holder">
-                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/3.jpg')); ?>" alt=" item"/>
+                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/3.jpg'), false); ?>" alt=" item"/>
                     <div class="project-hover">
                       <div class="project-action">
-                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/3.jpg')); ?>" title="battery materials item"></a></div>
+                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/3.jpg'), false); ?>" title="battery materials item"></a></div>
                       </div>
                       <!-- End .project-action -->
                     </div>
@@ -163,10 +163,10 @@
             <div class=" ">
               <div class="project-panel">
                 <div class="project-panel-holder">
-                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/4.jpg')); ?>" alt=" item"/>
+                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/4.jpg'), false); ?>" alt=" item"/>
                     <div class="project-hover">
                       <div class="project-action">
-                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/4.jpg')); ?>" title="hydropower plants item"></a></div>
+                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/4.jpg'), false); ?>" title="hydropower plants item"></a></div>
                       </div>
                       <!-- End .project-action -->
                     </div>
@@ -181,10 +181,10 @@
             <div class=" ">
               <div class="project-panel">
                 <div class="project-panel-holder">
-                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/5.jpg')); ?>" alt=" item"/>
+                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/5.jpg'), false); ?>" alt=" item"/>
                     <div class="project-hover">
                       <div class="project-action">
-                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/5.jpg')); ?>" title="fossil resoueces item"></a></div>
+                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/5.jpg'), false); ?>" title="fossil resoueces item"></a></div>
                       </div>
                       <!-- End .project-action -->
                     </div>
@@ -199,10 +199,10 @@
             <div>
               <div class="project-panel">
                 <div class="project-panel-holder">
-                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/6.jpg')); ?>" alt=" item"/>
+                  <div class="project-img"><img src="<?php echo e(asset('assets/images/projects/single/gallery/6.jpg'), false); ?>" alt=" item"/>
                     <div class="project-hover">
                       <div class="project-action">
-                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/6.jpg')); ?>" title="charge controllers item"></a></div>
+                        <div class="project-zoom"><i class="far fa-eye"></i><a class="img-gallery-item" href="<?php echo e(asset('assets/images/projects/full/6.jpg'), false); ?>" title="charge controllers item"></a></div>
                       </div>
                       <!-- End .project-action -->
                     </div>
@@ -257,7 +257,7 @@
         ============================
         -->
         <section class="processes processes-1 bg-overlay bg-overlay-theme4" id="processes-1">
-          <div class="bg-section"> <img src="<?php echo e(asset('assets/images/background/wavy-pattern.png')); ?>" alt="Background"/></div>
+          <div class="bg-section"> <img src="<?php echo e(asset('assets/images/background/wavy-pattern.png'), false); ?>" alt="Background"/></div>
           <div class="row">
             <div class="col-12 col-lg-6">
               <div class="block-right-holder">
@@ -271,7 +271,7 @@
                     <div class="counter-holder">
                       <div class="counter-num"> <span class="counting" data-counterup-nums="25" data-counterup-beginat="12">25</span></div>
                       <div class="counter-img">
-                        <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg')); ?>" alt="image"/></div><i class="flaticon-020-factory"></i>
+                        <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg'), false); ?>" alt="image"/></div><i class="flaticon-020-factory"></i>
                       </div>
                     </div>
                     <div class="counter-desc">
@@ -320,10 +320,10 @@
                   </div>
                 </div>
                 <div class="images-holder">
-                  <div class="carousel owl-carousel process-image-carousel" data-slide="1" data-slide-rs="1" data-autoplay="true" data-drag="false" data-nav="false" data-dots="false" data-space="0" data-loop="false" data-speed="800"><img src="<?php echo e(asset('assets/images/processes/1.jpg')); ?>" alt="process"/><img src="<?php echo e(asset('assets/images/processes/2.jpg')); ?>" alt="process"/><img src="<?php echo e(asset('assets/images/processes/3.jpg')); ?>" alt="process"/></div>
+                  <div class="carousel owl-carousel process-image-carousel" data-slide="1" data-slide-rs="1" data-autoplay="true" data-drag="false" data-nav="false" data-dots="false" data-space="0" data-loop="false" data-speed="800"><img src="<?php echo e(asset('assets/images/processes/1.jpg'), false); ?>" alt="process"/><img src="<?php echo e(asset('assets/images/processes/2.jpg'), false); ?>" alt="process"/><img src="<?php echo e(asset('assets/images/processes/3.jpg'), false); ?>" alt="process"/></div>
                   <div class="processes-panel"> 
                     <h3 class="panel-title">Commercial, Residential And Industrial Solar Systems!</h3>
-                    <p class="panel-desc">Our presence ensures timeliness, cost efficiency & compliance adherence!</p><a href="<?php echo e(route('contact')); ?>">schedule A Visit <i class="energia-arrow-right"></i></a>
+                    <p class="panel-desc">Our presence ensures timeliness, cost efficiency & compliance adherence!</p><a href="<?php echo e(route('contact'), false); ?>">schedule A Visit <i class="energia-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -348,7 +348,7 @@
                   <p class="heading-desc">We’re able to create tailored supply chains solutions backed by flexible terms not offered by solar distributors or commercial banks.</p>
                 </div>
                 <div class="col-12 col-lg-5 offset-lg-1"> 
-                  <p class="heading-desc">Suitable for commercial, residential and utility-scale projects, our bifacial panels are supported by supply chain management. For detailed specifications,<br/> consult our Solar Division.</p><a class="btn btn--primary" href="<?php echo e(route('contact')); ?>">get started <i class="energia-arrow-right"></i></a>
+                  <p class="heading-desc">Suitable for commercial, residential and utility-scale projects, our bifacial panels are supported by supply chain management. For detailed specifications,<br/> consult our Solar Division.</p><a class="btn btn--primary" href="<?php echo e(route('contact'), false); ?>">get started <i class="energia-arrow-right"></i></a>
                 </div>
               </div>
               <!-- End .row-->
@@ -413,7 +413,7 @@
         -->
         <section class="features features-4 bg-overlay bg-overlay-theme2" id="features-3">
           <div class="features-overlay bg-overlay bg-overlay-theme2">
-            <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/2.jpg')); ?>" alt="Background"/></div>
+            <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/2.jpg'), false); ?>" alt="Background"/></div>
           </div>
           <div class="container">
             <div class="heading heading-2 heading-light heading-light2">
@@ -429,7 +429,7 @@
                 <div class="col-12 col-lg-6 offset-lg-1">
                   <p class="heading-desc">While improving the yield and performance of solar energy products, our PV industry experience enables us to provide in-depth material sourcing, financing and supply chain expertise for every step.</p>
                   <p class="heading-desc">Raw polycrystalline silicon for PV manufacturing. Offered in various grades and formats including chunks, chips, powder and ingot.</p>
-                  <div class="actions-holder"><a class="btn btn--primary btn--inversed" href="<?php echo e(route('contact')); ?>">get started<i class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white" href="<?php echo e(route('about')); ?>">explore our plans</a></div>
+                  <div class="actions-holder"><a class="btn btn--primary btn--inversed" href="<?php echo e(route('contact'), false); ?>">get started<i class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white" href="<?php echo e(route('about'), false); ?>">explore our plans</a></div>
                 </div>
               </div>
               <!-- End .row-->
@@ -443,7 +443,7 @@
                     <div class="feature-content">
                       <h4>Save Your Money</h4>
                       <p>Save money on utilities or increase the value of your home by installing solar panels as a great option.</p>
-                    </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                    </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
                   </div>
                   <!-- End .feature-panel-->
                 </div>
@@ -455,7 +455,7 @@
                     <div class="feature-content">
                       <h4>Home Is Energy</h4>
                       <p>Everyday the sun provides us with abundance of free energy by placing solar panels on your roof.</p>
-                    </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                    </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
                   </div>
                   <!-- End .feature-panel-->
                 </div>
@@ -467,7 +467,7 @@
                     <div class="feature-content">
                       <h4>Consult &amp; Planning</h4>
                       <p>Our remote industrial solar systems are designed to reliably power our clients critical.</p>
-                    </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                    </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
                   </div>
                   <!-- End .feature-panel-->
                 </div>
@@ -479,7 +479,7 @@
                     <div class="feature-content">
                       <h4>Certified Engineers</h4>
                       <p>Our sales engineers on our staff have experience and can design any complete solar system.</p>
-                    </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                    </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
                   </div>
                   <!-- End .feature-panel-->
                 </div>
@@ -491,7 +491,7 @@
                     <div class="feature-content">
                       <h4>Save Your Money</h4>
                       <p>Save money on utilities or increase the value of your home by installing solar panels as a great option.</p>
-                    </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                    </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
                   </div>
                   <!-- End .feature-panel-->
                 </div>
@@ -503,7 +503,7 @@
                     <div class="feature-content">
                       <h4>Home Is Energy</h4>
                       <p>Everyday the sun provides us with abundance of free energy by placing solar panels on your roof.</p>
-                    </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                    </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
                   </div>
                   <!-- End .feature-panel-->
                 </div>
@@ -570,7 +570,7 @@
         -->
         <section class="testimonial testimonial-4">
           <div class="testimonial-overlay">
-            <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/wavy-pattern-2.png')); ?>" alt="background"/></div>
+            <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/wavy-pattern-2.png'), false); ?>" alt="background"/></div>
           </div>
           <div class="container">
             <div class="row">
@@ -581,7 +581,7 @@
                     <div class="counter-holder">
                       <div class="counter-num"> <span class="counting" data-counterup-nums="25" data-counterup-beginat="12">25</span></div>
                       <div class="counter-img">
-                        <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg')); ?>" alt="image"/></div><i class="flaticon-020-factory"></i>
+                        <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg'), false); ?>" alt="image"/></div><i class="flaticon-020-factory"></i>
                       </div>
                     </div>
                     <div class="counter-desc">
@@ -622,21 +622,21 @@
                 </div>
                 <div class="testimonial-thumbs">
                   <div class="testimonial-thumb active" data-hover="">
-                    <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/1.jpg')); ?>" alt="Testimonial Author"/></div>
+                    <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/1.jpg'), false); ?>" alt="Testimonial Author"/></div>
                     <div class="thumb-body"> 
                       <h6>sami wade</h6>
                       <p>promina</p>
                     </div>
                   </div>
                   <div class="testimonial-thumb" data-hover="">
-                    <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/2.jpg')); ?>" alt="Testimonial Author"/></div>
+                    <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/2.jpg'), false); ?>" alt="Testimonial Author"/></div>
                     <div class="thumb-body"> 
                       <h6>john peter</h6>
                       <p>optima inc</p>
                     </div>
                   </div>
                   <div class="testimonial-thumb" data-hover="">
-                    <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/3.jpg')); ?>" alt="Testimonial Author"/></div>
+                    <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/3.jpg'), false); ?>" alt="Testimonial Author"/></div>
                     <div class="thumb-body"> 
                       <h6>sony blake</h6>
                       <p>koira ind</p>
@@ -652,7 +652,7 @@
         <!-- Start .project-share-->
         <div class="project-share">
           <div class="container"> 
-            <div class="tags"> <a href="<?php echo e(route('service')); ?>">finance</a><a href="<?php echo e(route('service')); ?>">supply chain</a><a href="<?php echo e(route('service')); ?>">solar panels</a></div>
+            <div class="tags"> <a href="<?php echo e(route('service'), false); ?>">finance</a><a href="<?php echo e(route('service'), false); ?>">supply chain</a><a href="<?php echo e(route('service'), false); ?>">solar panels</a></div>
             <div class="social-share"> <a class="share-facebook" href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a><a class="share-instagram" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a><a class="share-twitter" href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
           </div>
         </div>
@@ -677,13 +677,13 @@
                           <div>
                             <div class="project-panel" data-hover="">
                               <div class="project-panel-holder">
-                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject')); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/1.jpg')); ?>" alt="project image"/></div>
+                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject'), false); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/1.jpg'), false); ?>" alt="project image"/></div>
                                 <!-- End .project-img-->
                                 <div class="project-content"> 
                                   <div class="project-title">
-                                    <h4><a href="<?php echo e(route('singelProject')); ?>">expanding The Solar Supply Finance Program</a></h4>
+                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">expanding The Solar Supply Finance Program</a></h4>
                                   </div>
-                                  <div class="project-cat"><a href="<?php echo e(route('project')); ?>">finance</a><a href="<?php echo e(route('project')); ?>">supply chain</a>
+                                  <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">finance</a><a href="<?php echo e(route('project'), false); ?>">supply chain</a>
                                   </div>
                                 </div>
                                 <!-- End .project-content -->
@@ -693,13 +693,13 @@
                           <div>
                             <div class="project-panel" data-hover="">
                               <div class="project-panel-holder">
-                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject')); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/2.jpg')); ?>" alt="project image"/></div>
+                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject'), false); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/2.jpg'), false); ?>" alt="project image"/></div>
                                 <!-- End .project-img-->
                                 <div class="project-content"> 
                                   <div class="project-title">
-                                    <h4><a href="<?php echo e(route('singelProject')); ?>">Addressing Wind Energy Innovation Challenges</a></h4>
+                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">Addressing Wind Energy Innovation Challenges</a></h4>
                                   </div>
-                                  <div class="project-cat"><a href="<?php echo e(route('project')); ?>">energy</a><a href="<?php echo e(route('project')); ?>">green energy</a>
+                                  <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">energy</a><a href="<?php echo e(route('project'), false); ?>">green energy</a>
                                   </div>
                                 </div>
                                 <!-- End .project-content -->
@@ -709,13 +709,13 @@
                           <div>
                             <div class="project-panel" data-hover="">
                               <div class="project-panel-holder">
-                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject')); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/3.jpg')); ?>" alt="project image"/></div>
+                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject'), false); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/3.jpg'), false); ?>" alt="project image"/></div>
                                 <!-- End .project-img-->
                                 <div class="project-content"> 
                                   <div class="project-title">
-                                    <h4><a href="<?php echo e(route('singelProject')); ?>">dangerous environment impact of gas</a></h4>
+                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">dangerous environment impact of gas</a></h4>
                                   </div>
-                                  <div class="project-cat"><a href="<?php echo e(route('project')); ?>">eco</a><a href="<?php echo e(route('project')); ?>">green energy</a>
+                                  <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">eco</a><a href="<?php echo e(route('project'), false); ?>">green energy</a>
                                   </div>
                                 </div>
                                 <!-- End .project-content -->
@@ -725,13 +725,13 @@
                           <div>
                             <div class="project-panel" data-hover="">
                               <div class="project-panel-holder">
-                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject')); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/4.jpg')); ?>" alt="project image"/></div>
+                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject'), false); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/4.jpg'), false); ?>" alt="project image"/></div>
                                 <!-- End .project-img-->
                                 <div class="project-content"> 
                                   <div class="project-title">
-                                    <h4><a href="<?php echo e(route('singelProject')); ?>">New Attitude Towards Renewable Energy</a></h4>
+                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">New Attitude Towards Renewable Energy</a></h4>
                                   </div>
-                                  <div class="project-cat"><a href="<?php echo e(route('project')); ?>">green energy</a><a href="<?php echo e(route('project')); ?>">eCO</a>
+                                  <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">green energy</a><a href="<?php echo e(route('project'), false); ?>">eCO</a>
                                   </div>
                                 </div>
                                 <!-- End .project-content -->
@@ -741,13 +741,13 @@
                           <div>
                             <div class="project-panel" data-hover="">
                               <div class="project-panel-holder">
-                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject')); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/5.jpg')); ?>" alt="project image"/></div>
+                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject'), false); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/5.jpg'), false); ?>" alt="project image"/></div>
                                 <!-- End .project-img-->
                                 <div class="project-content"> 
                                   <div class="project-title">
-                                    <h4><a href="<?php echo e(route('singelProject')); ?>">Smarter Way to Manage Charging Infrastructures</a></h4>
+                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">Smarter Way to Manage Charging Infrastructures</a></h4>
                                   </div>
-                                  <div class="project-cat"><a href="<?php echo e(route('project')); ?>">elictrec vehicles</a><a href="<?php echo e(route('project')); ?>">infrastructures</a>
+                                  <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">elictrec vehicles</a><a href="<?php echo e(route('project'), false); ?>">infrastructures</a>
                                   </div>
                                 </div>
                                 <!-- End .project-content -->
@@ -757,13 +757,13 @@
                           <div>
                             <div class="project-panel" data-hover="">
                               <div class="project-panel-holder">
-                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject')); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/6.jpg')); ?>" alt="project image"/></div>
+                                <div class="project-img"><a class="link" href="<?php echo e(route('singelProject'), false); ?>"></a><img src="<?php echo e(asset('assets/images/projects/grid-carousel/6.jpg'), false); ?>" alt="project image"/></div>
                                 <!-- End .project-img-->
                                 <div class="project-content"> 
                                   <div class="project-title">
-                                    <h4><a href="<?php echo e(route('singelProject')); ?>">Addressing Wind Energy Innovation Challenges</a></h4>
+                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">Addressing Wind Energy Innovation Challenges</a></h4>
                                   </div>
-                                  <div class="project-cat"><a href="<?php echo e(route('project')); ?>">wind energy</a><a href="<?php echo e(route('project')); ?>">innovations</a>
+                                  <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">wind energy</a><a href="<?php echo e(route('project'), false); ?>">innovations</a>
                                   </div>
                                 </div>
                                 <!-- End .project-content -->
@@ -774,7 +774,7 @@
             <!-- End .carousel-->
             <div class="row"> 
               <div class="col-12"> 
-                <div class="projects-load-more"> <a class="btn btn--secondary" href="<?php echo e(route('project')); ?>">explore all projects <i class="energia-arrow-right"></i></a></div>
+                <div class="projects-load-more"> <a class="btn btn--secondary" href="<?php echo e(route('project'), false); ?>">explore all projects <i class="energia-arrow-right"></i></a></div>
               </div>
             </div>
             <!-- End .row-->

@@ -14,7 +14,7 @@
             <div class="title">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <h1 class="title-heading">Wind Turbines</h1>
+                        <h1 class="title-heading">Service Details</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -34,7 +34,7 @@
                     <div class="breadcrumb-wrap">
                         <ol class="breadcrumb breadcrumb-light d-flex">
                             <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Wind Turbines</li>
+                            <li class="breadcrumb-item active" aria-current="page">Service Details</li>
                         </ol>
                     </div>
                 </div>
@@ -67,17 +67,19 @@
                         </div>
                         <div class="widget-content">
                             <ul class="list-unstyled">
-                                <li><a href="{{route('singelService')}}"> <span>solar panels</span><i
+                                <li><a href="{{route('singelService')}}"> <span>Solar System Design and Installation</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="{{route('singelService')}}"> <span>wind turbines</span><i
+                                <li><a href="{{route('singelService')}}"> <span>Energy Forecasting</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="{{route('singelService')}}"> <span>hydropower plants</span><i
+                                <li><a href="{{route('singelService')}}"> <span>Load Analysis and Power Quality Audits</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="{{route('singelService')}}"> <span>fossil resources</span><i
+                                <li><a href="{{route('singelService')}}"> <span>EPC Services</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="{{route('singelService')}}"> <span>battery materials</span><i
+                                <li><a href="{{route('singelService')}}"> <span>Energy Management Consulting</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="{{route('singelService')}}"> <span>charge controllers</span><i
+                                <li><a href="{{route('singelService')}}"> <span>Maintenance and Servicing</span><i
+                                            class="energia-arrow-right"></i></a></li>
+                                <li><a href="{{route('singelService')}}"> <span>Financing Options</span><i
                                             class="energia-arrow-right"></i></a></li>
                             </ul>
                         </div>
@@ -89,8 +91,8 @@
                         <div class="widget-content"><i class="flaticon-040-green-energy"></i>
                             <p>Please feel welcome to contact our friendly reception staff with any general or medical
                                 enquiry call us</p><a class="btn btn--bordered btn--white"
-                                href="{{route('contact')}}">schedule an appintment</a><a href="tel:0106123214"><span
-                                    class="energia-phone-Icon"></span> 0106123214</a>
+                                href="{{route('contact')}}">schedule an appintment</a><a href="tel:+233 (0) 20 148 2289"><span
+                                    class="energia-phone-Icon"></span> +233 (0) 20 148 2289</a>
                         </div>
                     </div>
                     <!-- End .widget-reservation-->
@@ -139,18 +141,23 @@
                 <div class="service-entry">
                     <div class="entry-content">
                         <div class="entry-introduction entry-infos">
-                            <h5 class="entry-heading">overview</h5>
-                            <p class="entry-desc">Wind turbines are manufactured in a wide range of vertical and
-                                horizontal axis. The smallest turbines are used for applications such as battery
-                                charging for auxiliary power for boats or caravans or to power traffic warning signs.
-                                Larger turbines can be used for making contributions to a domestic power supply while
-                                selling unused power back to the utility supplier via the electrical grid. Arrays of
-                                large turbines, known as wind farms, are becoming an increasingly important source of
-                                intermittent renewable energy and are used by many countries as part of a strategy to
-                                reduce their reliance on fossil fuels.</p>
-                            <p class="entry-desc">One assessment claimed that, as of 2009, wind had the “lowest relative
-                                greenhouse gas emissions, the least water consumption demands and… the most favourable
-                                social impacts” compared to photovoltaic, hydro, geothermal, coal and gas.[1]</p>
+                            <h5 class="entry-heading">Solar System Design and Installation</h5>
+                            <p class="entry-desc">We design and install various types of solar systems ranging from hybrid and grid-tied systems to microgrids. This involves gathering all requirements during a site survey, and engaging with clients on which type of system will best suit their needs. We apply Load Analysis techniques and Energy Forecasting to come up with the final design for our clients.</p>
+                            <h5 class="entry-heading">Load Analysis and Power Quality Audits</h5>
+                            <p class="entry-desc">We use of Energy data loggers and power quality analyzers to provide Load Analysis Reports, Power Quality Audits and to measure the total energy requirements at a facility. This feeds into our analysis and design of systems. We do this for new sites or an existing facility. This results in the correct sizing of Inverters, battery banks, solar panel arrays, switch panels, AVRs and power factor correction (PFC) banks.</p>
+                            <h5 class="entry-heading">Energy Forecasting</h5>
+                            <p class="entry-desc">We provide short-term and long-term load forecasting, taking into consideration the current price of electricity from the grid and the price of electricity based on renewable energy sources. We also provide reports on estimated CO2 savings (carbon emissions savings), which help in the decision-making process. These forecasts are the basis for planning and investing in new capacity, which ensures the reliability of supply to meet the long-term demand forecasts of our clients.</p>
+                            <h5 class="entry-heading">Engineering, Procurement and Construction (EPC Services)</h5>
+                            <p class="entry-desc">With our Engineering, Procurement and Construction (EPC) service, we deliver large, complex renewable energy projects on a turnkey basis. Such projects include development of microgrids and large Energy Storage Systems (ESS) for industrial, commercial and real-estate development applications. From design to equipment selection and integration, our team of engineers and project managers ensure the solution is delivered as per the agreed upon scope and timeline.</p>
+                            <h5 class="entry-heading">Energy Management Consulting</h5>
+                            <p class="entry-desc">With our advisory and consulting service, we provide clients with technical advice and project management activities for their renewable energy projects based on our expertise and experience in managing such projects to ensure your project is executed according to the agreed upon specifications and within the timeframe and budget. We also liaise with the regulators such as Energy Commission to ensure that the installation meets all regulatory standards. </p>
+                            <h5 class="entry-heading">Maintenance and Servicing</h5>
+                            <p class="entry-desc">As with all our installations, we offer maintenance and optional SLA contracts to clients, which cover the warranty period of the installation. With such arrangements, we provide regular preventive and corrective maintenance to ensure the system is working optimally at all times. This enables residents and businesses to focus on their core activities without worrying about their installations.</p>
+                            <h5 class="entry-heading">Financing Options</h5>
+                            <p class="entry-desc">We leverage our partnerships with several financial institutions to provide clients with financing options such as monthly payment terms on their installations. Terms and conditions apply.</p>
+                            
+                            
+                            
                             <div class="row">
                                 <div class="col-12 col-md-6"><img src="{{asset('assets/images/services/single/1.jpg')}}"
                                         alt="image" /></div>

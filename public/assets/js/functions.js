@@ -646,4 +646,67 @@ requestForm.validate({
         }
     });
 
+
+    // ------------ Custom js active navigation hover ---------------- //
+
+
+    $(document).ready(function() {
+        // Function to remove active class from all nav-items
+        function removeActiveClass() {
+            $('.nav-item').removeClass('active');
+        }
+    
+        // Function to set active class based on stored value
+        function setActiveFromStorage() {
+            const activeId = localStorage.getItem('activeNavItem');
+            if (activeId) {
+                $('#' + activeId).addClass('active');
+            }
+        }
+    
+        // Set active class on click and store the active item's id
+        $('.nav-item a').click(function(event) {
+            //event.preventDefault(); 
+            console.log(location.href)
+            // Prevent the default action (navigation)
+            const parentId = $(this).parent().attr('id');
+            console.log(parentId)
+            localStorage.setItem('activeNavItem', parentId);
+            removeActiveClass();
+            $(this).parent().addClass('active');
+        });
+    
+        // On hover, add active class to the hovered item
+        $('.nav-item').click(function() {
+            $(this).addClass('active');
+        }, function() {
+            if (!$(this).find('a').is(':focus')) {
+                $(this).removeClass('active');
+            }
+        });
+    
+        
+        setActiveFromStorage();
+    });
+
+    ///******************* */
+
+    // function activateMenu(link) {
+    //     // Remove 'active' class from all menu items
+    //     var menuItems = document.querySelectorAll('.nav-item');
+    //     menuItems.forEach(item => {
+    //         item.addEventListener('click', ()=>{
+    //             document.querySelectorAll('.active') ?.item.classList.remove('active');
+    //             item.classList.add('active');
+    //         })
+        
+    //     });
+  
+    //     // Add 'active' class to the clicked menu item
+    //    // link.parentNode.classList.add('active');
+    //   }
+    
+    //************************ */
+
 }(jQuery));
+

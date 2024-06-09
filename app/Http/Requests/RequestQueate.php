@@ -22,7 +22,7 @@ class RequestQueate extends FormRequest
     public function rules(): array
     {
         return [
-            ''
+            //
         ];
     }
 }

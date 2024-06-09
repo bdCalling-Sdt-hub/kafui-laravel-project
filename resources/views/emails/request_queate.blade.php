@@ -50,75 +50,75 @@
         <h1>New Request Quote</h1>
         <div class="row">
             <p><strong>Install System:</strong></p>
-            <p>{{ $requestData['install_system'] }}</p>
+            <p>{{ $requestData['install_system'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>System Complete By:</strong></p>
-            <p>{{ $requestData['system_complet_by'] }}</p>
+            <p>{{ $requestData['system_complet_by'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Monthly Electric Use:</strong></p>
-            <p>{{ $requestData['contact-usage'] }}</p>
+            <p>{{ $requestData['contact-usage'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Solar System Type:</strong></p>
-            <p>{{ $requestData['solar_system_type'] }}</p>
+            <p>{{ $requestData['solar_system_type'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Solar Panel Place:</strong></p>
-            <p>{{ $requestData['solar_panel_place'] }}</p>
+            <p>{{ $requestData['solar_panel_place'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Material on Your Roof:</strong></p>
-            <p>{{ $requestData['metarial_on_your_rof'] }}</p>
+            <p>{{ $requestData['metarial_on_your_rof'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>About Your Project:</strong></p>
-            <p>{{ $requestData['contact-projects'] }}</p>
+            <p>{{ $requestData['contact-projects'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>First Name:</strong></p>
-            <p>{{ $requestData['contact-first-name'] }}</p>
+            <p>{{ $requestData['contact-first-name'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Last Name:</strong></p>
-            <p>{{ $requestData['contact-last-name'] }}</p>
+            <p>{{ $requestData['contact-last-name'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Email:</strong></p>
-            <p>{{ $requestData['contact-email'] }}</p>
+            <p>{{ $requestData['contact-email'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Phone:</strong></p>
-            <p>{{ $requestData['contact-phone'] }}</p>
+            <p>{{ $requestData['contact-phone'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Contact Method:</strong></p>
-            <p>{{ $requestData['customRadioInline1'] }}</p>
+            <p>{{ $requestData['customRadioInline1'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Street Address:</strong></p>
-            <p>{{ $requestData['contact-address'] }}</p>
+            <p>{{ $requestData['contact-address'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>City:</strong></p>
-            <p>{{ $requestData['contact-city'] }}</p>
+            <p>{{ $requestData['contact-city'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>State:</strong></p>
-            <p>{{ $requestData['contact-state'] }}</p>
+            <p>{{ $requestData['contact-state'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Zip Code:</strong></p>
-            <p>{{ $requestData['contact-zip'] }}</p>
+            <p>{{ $requestData['contact-zip'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Country:</strong></p>
-            <p>{{ $requestData['contact-country'] }}</p>
+            <p>{{ $requestData['contact-country'] ?? 'N/A' }}</p>
         </div>
         <div class="row">
             <p><strong>Ship to Address Type:</strong></p>
-            <p>{{ $requestData['ship_to_address_type'] }}</p>
+            <p>{{ $requestData['ship_to_address_type'] ?? 'N/A' }}</p>
         </div>
         <div class="footer">
             <p>&copy; 2024 Your Company. All rights reserved.</p>

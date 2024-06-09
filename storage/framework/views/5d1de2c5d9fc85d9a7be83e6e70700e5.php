@@ -9,12 +9,12 @@
       -->
 <section class="page-title page-title-11" id="page-title">
     <div class="page-title-wrap bg-overlay bg-overlay-dark-3">
-        <div class="bg-section"><img src="<?php echo e(asset('assets/images/page-titles/11.jpg')); ?>" alt="Background" /></div>
+        <div class="bg-section"><img src="<?php echo e(asset('assets/images/page-titles/11.jpg'), false); ?>" alt="Background" /></div>
         <div class="container">
             <div class="title">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <h1 class="title-heading">Wind Turbines</h1>
+                        <h1 class="title-heading">Service Details</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -22,9 +22,9 @@
                         <p class="title-desc">We offer products, solutions, and services across the entire energy value
                             chain. We support our customers on their way to a more sustainable future.</p>
                         <div class="title-action"> <a class="btn btn--primary btn--inversed"
-                                href="<?php echo e(route('contact')); ?>">
+                                href="<?php echo e(route('contact'), false); ?>">
                                 get started<i class="energia-arrow-right"></i></a><a
-                                class="btn btn--bordered btn--white" href="<?php echo e(route('about')); ?>">explore our plans</a>
+                                class="btn btn--bordered btn--white" href="<?php echo e(route('about'), false); ?>">explore our plans</a>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@
                 <div class="col-12">
                     <div class="breadcrumb-wrap">
                         <ol class="breadcrumb breadcrumb-light d-flex">
-                            <li class="breadcrumb-item"><a href="<?php echo e(url('/')); ?>">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Wind Turbines</li>
+                            <li class="breadcrumb-item"><a href="<?php echo e(url('/'), false); ?>">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Service Details</li>
                         </ol>
                     </div>
                 </div>
@@ -67,17 +67,19 @@
                         </div>
                         <div class="widget-content">
                             <ul class="list-unstyled">
-                                <li><a href="<?php echo e(route('singelService')); ?>"> <span>solar panels</span><i
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>Solar System Design and Installation</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="<?php echo e(route('singelService')); ?>"> <span>wind turbines</span><i
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>Energy Forecasting</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="<?php echo e(route('singelService')); ?>"> <span>hydropower plants</span><i
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>Load Analysis and Power Quality Audits</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="<?php echo e(route('singelService')); ?>"> <span>fossil resources</span><i
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>EPC Services</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="<?php echo e(route('singelService')); ?>"> <span>battery materials</span><i
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>Energy Management Consulting</span><i
                                             class="energia-arrow-right"></i></a></li>
-                                <li><a href="<?php echo e(route('singelService')); ?>"> <span>charge controllers</span><i
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>Maintenance and Servicing</span><i
+                                            class="energia-arrow-right"></i></a></li>
+                                <li><a href="<?php echo e(route('singelService'), false); ?>"> <span>Financing Options</span><i
                                             class="energia-arrow-right"></i></a></li>
                             </ul>
                         </div>
@@ -85,12 +87,12 @@
                     <!-- End .widget-services -->
                     <!-- Reservation-->
                     <div class="widget widget-reservation"><img
-                            src="<?php echo e(asset('assets/images/blog/sidebar/reservation.jpg')); ?>" alt="img" />
+                            src="<?php echo e(asset('assets/images/blog/sidebar/reservation.jpg'), false); ?>" alt="img" />
                         <div class="widget-content"><i class="flaticon-040-green-energy"></i>
                             <p>Please feel welcome to contact our friendly reception staff with any general or medical
                                 enquiry call us</p><a class="btn btn--bordered btn--white"
-                                href="<?php echo e(route('contact')); ?>">schedule an appintment</a><a href="tel:0106123214"><span
-                                    class="energia-phone-Icon"></span> 0106123214</a>
+                                href="<?php echo e(route('contact'), false); ?>">schedule an appintment</a><a href="tel:+233 (0) 20 148 2289"><span
+                                    class="energia-phone-Icon"></span> +233 (0) 20 148 2289</a>
                         </div>
                     </div>
                     <!-- End .widget-reservation-->
@@ -139,22 +141,27 @@
                 <div class="service-entry">
                     <div class="entry-content">
                         <div class="entry-introduction entry-infos">
-                            <h5 class="entry-heading">overview</h5>
-                            <p class="entry-desc">Wind turbines are manufactured in a wide range of vertical and
-                                horizontal axis. The smallest turbines are used for applications such as battery
-                                charging for auxiliary power for boats or caravans or to power traffic warning signs.
-                                Larger turbines can be used for making contributions to a domestic power supply while
-                                selling unused power back to the utility supplier via the electrical grid. Arrays of
-                                large turbines, known as wind farms, are becoming an increasingly important source of
-                                intermittent renewable energy and are used by many countries as part of a strategy to
-                                reduce their reliance on fossil fuels.</p>
-                            <p class="entry-desc">One assessment claimed that, as of 2009, wind had the “lowest relative
-                                greenhouse gas emissions, the least water consumption demands and… the most favourable
-                                social impacts” compared to photovoltaic, hydro, geothermal, coal and gas.[1]</p>
+                            <h5 class="entry-heading">Solar System Design and Installation</h5>
+                            <p class="entry-desc">We design and install various types of solar systems ranging from hybrid and grid-tied systems to microgrids. This involves gathering all requirements during a site survey, and engaging with clients on which type of system will best suit their needs. We apply Load Analysis techniques and Energy Forecasting to come up with the final design for our clients.</p>
+                            <h5 class="entry-heading">Load Analysis and Power Quality Audits</h5>
+                            <p class="entry-desc">We use of Energy data loggers and power quality analyzers to provide Load Analysis Reports, Power Quality Audits and to measure the total energy requirements at a facility. This feeds into our analysis and design of systems. We do this for new sites or an existing facility. This results in the correct sizing of Inverters, battery banks, solar panel arrays, switch panels, AVRs and power factor correction (PFC) banks.</p>
+                            <h5 class="entry-heading">Energy Forecasting</h5>
+                            <p class="entry-desc">We provide short-term and long-term load forecasting, taking into consideration the current price of electricity from the grid and the price of electricity based on renewable energy sources. We also provide reports on estimated CO2 savings (carbon emissions savings), which help in the decision-making process. These forecasts are the basis for planning and investing in new capacity, which ensures the reliability of supply to meet the long-term demand forecasts of our clients.</p>
+                            <h5 class="entry-heading">Engineering, Procurement and Construction (EPC Services)</h5>
+                            <p class="entry-desc">With our Engineering, Procurement and Construction (EPC) service, we deliver large, complex renewable energy projects on a turnkey basis. Such projects include development of microgrids and large Energy Storage Systems (ESS) for industrial, commercial and real-estate development applications. From design to equipment selection and integration, our team of engineers and project managers ensure the solution is delivered as per the agreed upon scope and timeline.</p>
+                            <h5 class="entry-heading">Energy Management Consulting</h5>
+                            <p class="entry-desc">With our advisory and consulting service, we provide clients with technical advice and project management activities for their renewable energy projects based on our expertise and experience in managing such projects to ensure your project is executed according to the agreed upon specifications and within the timeframe and budget. We also liaise with the regulators such as Energy Commission to ensure that the installation meets all regulatory standards. </p>
+                            <h5 class="entry-heading">Maintenance and Servicing</h5>
+                            <p class="entry-desc">As with all our installations, we offer maintenance and optional SLA contracts to clients, which cover the warranty period of the installation. With such arrangements, we provide regular preventive and corrective maintenance to ensure the system is working optimally at all times. This enables residents and businesses to focus on their core activities without worrying about their installations.</p>
+                            <h5 class="entry-heading">Financing Options</h5>
+                            <p class="entry-desc">We leverage our partnerships with several financial institutions to provide clients with financing options such as monthly payment terms on their installations. Terms and conditions apply.</p>
+                            
+                            
+                            
                             <div class="row">
-                                <div class="col-12 col-md-6"><img src="<?php echo e(asset('assets/images/services/single/1.jpg')); ?>"
+                                <div class="col-12 col-md-6"><img src="<?php echo e(asset('assets/images/services/single/1.jpg'), false); ?>"
                                         alt="image" /></div>
-                                <div class="col-12 col-md-6"><img src="<?php echo e(asset('assets/images/services/single/2.jpg')); ?>"
+                                <div class="col-12 col-md-6"><img src="<?php echo e(asset('assets/images/services/single/2.jpg'), false); ?>"
                                         alt="image" /></div>
                             </div>
                         </div>
@@ -178,13 +185,13 @@
                                         safely as possible.</p>
                                 </div>
                                 <div class="col-12 col-lg-6"> <img class="entry-chart"
-                                        src="<?php echo e(asset('assets/images/charts/chart-1.png')); ?>" alt="Chart image" /></div>
+                                        src="<?php echo e(asset('assets/images/charts/chart-1.png'), false); ?>" alt="Chart image" /></div>
                             </div>
                         </div>
                         <div class="entry-processes">
                             <div class="entry-body">
                                 <div class="process-icon">
-                                    <div class="bg-section"> <img src="<?php echo e(asset('assets/images/counters/1.jpg')); ?>"
+                                    <div class="bg-section"> <img src="<?php echo e(asset('assets/images/counters/1.jpg'), false); ?>"
                                             alt="img" /></div><i class="flaticon-020-factory"></i>
                                 </div>
                                 <div class="processes processes-2">
@@ -242,9 +249,9 @@
                                 <div class="carousel owl-carousel process-image-carousel" data-slide="1"
                                     data-slide-rs="1" data-autoplay="true" data-drag="false" data-nav="true"
                                     data-dots="false" data-space="0" data-loop="false" data-speed="800"><img
-                                        src="<?php echo e(asset('assets/images/processes/1.jpg')); ?>" alt="process" /><img
-                                        src="<?php echo e(asset('assets/images/processes/2.jpg')); ?>" alt="process" /><img
-                                        src="<?php echo e(asset('assets/images/processes/3.jpg')); ?>" alt="process" /></div>
+                                        src="<?php echo e(asset('assets/images/processes/1.jpg'), false); ?>" alt="process" /><img
+                                        src="<?php echo e(asset('assets/images/processes/2.jpg'), false); ?>" alt="process" /><img
+                                        src="<?php echo e(asset('assets/images/processes/3.jpg'), false); ?>" alt="process" /></div>
                             </div>
                         </div>
                         <div class="entry-video entry-infos">
@@ -259,7 +266,7 @@
                     ============================
                     -->
                             <div class="video video-3" id="video-3">
-                                <div class="bg-section"><img src="<?php echo e(asset('assets/images/video/3.jpg')); ?>"
+                                <div class="bg-section"><img src="<?php echo e(asset('assets/images/video/3.jpg'), false); ?>"
                                         alt="background" /></div><a class="popup-video btn-video btn-video-2"
                                     href="https://www.youtube.com/watch?v=nrJtHemSPW4"> <i class="fas fa-play"></i></a>
                                 <!-- End .popup-video-->
@@ -281,7 +288,7 @@
                                                 <div class="feature-content">
                                                     <h4>Save Your Money</h4>
                                                     <p>Save money on utilities or increase the value of your home.</p>
-                                                </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i>
+                                                </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i>
                                                     <span>explore more</span> </a>
                                             </div>
                                             <!-- End .feature-panel-->
@@ -294,7 +301,7 @@
                                                 <div class="feature-content">
                                                     <h4>Home Is Energy</h4>
                                                     <p>Everyday the sun provides us with free energy.</p>
-                                                </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i>
+                                                </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i>
                                                     <span>explore more</span> </a>
                                             </div>
                                             <!-- End .feature-panel-->
@@ -308,7 +315,7 @@
                                                     <h4>Consult &amp; Plan</h4>
                                                     <p>Our remote industrial solar systems designed to reliably power.
                                                     </p>
-                                                </div><a href="<?php echo e(route('about')); ?>"><i class="energia-arrow-right"></i>
+                                                </div><a href="<?php echo e(route('about'), false); ?>"><i class="energia-arrow-right"></i>
                                                     <span>explore more</span> </a>
                                             </div>
                                             <!-- End .feature-panel-->
@@ -371,17 +378,17 @@
                                     <div class="project-panel" data-hover="">
                                         <div class="project-panel-holder">
                                             <div class="project-img"><a class="link"
-                                                    href="<?php echo e(route('singelProject')); ?>"></a><img
-                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/1.jpg')); ?>"
+                                                    href="<?php echo e(route('singelProject'), false); ?>"></a><img
+                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/1.jpg'), false); ?>"
                                                     alt="project image" /></div>
                                             <!-- End .project-img-->
                                             <div class="project-content">
                                                 <div class="project-title">
-                                                    <h4><a href="<?php echo e(route('singelProject')); ?>">expanding The Solar Supply
+                                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">expanding The Solar Supply
                                                             Finance Program</a></h4>
                                                 </div>
-                                                <div class="project-cat"><a href="<?php echo e(route('project')); ?>">finance</a><a
-                                                        href="<?php echo e(route('project')); ?>">supply chain</a>
+                                                <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">finance</a><a
+                                                        href="<?php echo e(route('project'), false); ?>">supply chain</a>
                                                 </div>
                                             </div>
                                             <!-- End .project-content -->
@@ -392,17 +399,17 @@
                                     <div class="project-panel" data-hover="">
                                         <div class="project-panel-holder">
                                             <div class="project-img"><a class="link"
-                                                    href="<?php echo e(route('singelProject')); ?>"></a><img
-                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/2.jpg')); ?>"
+                                                    href="<?php echo e(route('singelProject'), false); ?>"></a><img
+                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/2.jpg'), false); ?>"
                                                     alt="project image" /></div>
                                             <!-- End .project-img-->
                                             <div class="project-content">
                                                 <div class="project-title">
-                                                    <h4><a href="<?php echo e(route('singelProject')); ?>">Addressing Wind Energy
+                                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">Addressing Wind Energy
                                                             Innovation Challenges</a></h4>
                                                 </div>
-                                                <div class="project-cat"><a href="<?php echo e(route('project')); ?>">energy</a><a
-                                                        href="<?php echo e(route('project')); ?>">green energy</a>
+                                                <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">energy</a><a
+                                                        href="<?php echo e(route('project'), false); ?>">green energy</a>
                                                 </div>
                                             </div>
                                             <!-- End .project-content -->
@@ -413,17 +420,17 @@
                                     <div class="project-panel" data-hover="">
                                         <div class="project-panel-holder">
                                             <div class="project-img"><a class="link"
-                                                    href="<?php echo e(route('singelProject')); ?>"></a><img
-                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/3.jpg')); ?>"
+                                                    href="<?php echo e(route('singelProject'), false); ?>"></a><img
+                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/3.jpg'), false); ?>"
                                                     alt="project image" /></div>
                                             <!-- End .project-img-->
                                             <div class="project-content">
                                                 <div class="project-title">
-                                                    <h4><a href="<?php echo e(route('singelProject')); ?>">dangerous environment
+                                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">dangerous environment
                                                             impact of gas</a></h4>
                                                 </div>
-                                                <div class="project-cat"><a href="<?php echo e(route('project')); ?>">eco</a><a
-                                                        href="<?php echo e(route('project')); ?>">green energy</a>
+                                                <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">eco</a><a
+                                                        href="<?php echo e(route('project'), false); ?>">green energy</a>
                                                 </div>
                                             </div>
                                             <!-- End .project-content -->
@@ -434,17 +441,17 @@
                                     <div class="project-panel" data-hover="">
                                         <div class="project-panel-holder">
                                             <div class="project-img"><a class="link"
-                                                    href="<?php echo e(route('singelProject')); ?>"></a><img
-                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/4.jpg')); ?>"
+                                                    href="<?php echo e(route('singelProject'), false); ?>"></a><img
+                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/4.jpg'), false); ?>"
                                                     alt="project image" /></div>
                                             <!-- End .project-img-->
                                             <div class="project-content">
                                                 <div class="project-title">
-                                                    <h4><a href="<?php echo e(route('singelProject')); ?>">New Attitude Towards
+                                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">New Attitude Towards
                                                             Renewable Energy</a></h4>
                                                 </div>
-                                                <div class="project-cat"><a href="<?php echo e(route('project')); ?>">green
-                                                        energy</a><a href="<?php echo e(route('project')); ?>">eCO</a>
+                                                <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">green
+                                                        energy</a><a href="<?php echo e(route('project'), false); ?>">eCO</a>
                                                 </div>
                                             </div>
                                             <!-- End .project-content -->
@@ -455,17 +462,17 @@
                                     <div class="project-panel" data-hover="">
                                         <div class="project-panel-holder">
                                             <div class="project-img"><a class="link"
-                                                    href="<?php echo e(route('singelProject')); ?>"></a><img
-                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/5.jpg')); ?>"
+                                                    href="<?php echo e(route('singelProject'), false); ?>"></a><img
+                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/5.jpg'), false); ?>"
                                                     alt="project image" /></div>
                                             <!-- End .project-img-->
                                             <div class="project-content">
                                                 <div class="project-title">
-                                                    <h4><a href="<?php echo e(route('singelProject')); ?>">Smarter Way to Manage
+                                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">Smarter Way to Manage
                                                             Charging Infrastructures</a></h4>
                                                 </div>
-                                                <div class="project-cat"><a href="<?php echo e(route('project')); ?>">elictrec
-                                                        vehicles</a><a href="<?php echo e(route('project')); ?>">infrastructures</a>
+                                                <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">elictrec
+                                                        vehicles</a><a href="<?php echo e(route('project'), false); ?>">infrastructures</a>
                                                 </div>
                                             </div>
                                             <!-- End .project-content -->
@@ -476,17 +483,17 @@
                                     <div class="project-panel" data-hover="">
                                         <div class="project-panel-holder">
                                             <div class="project-img"><a class="link"
-                                                    href="<?php echo e(route('singelProject')); ?>"></a><img
-                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/6.jpg')); ?>"
+                                                    href="<?php echo e(route('singelProject'), false); ?>"></a><img
+                                                    src="<?php echo e(asset('assets/images/projects/grid-carousel/6.jpg'), false); ?>"
                                                     alt="project image" /></div>
                                             <!-- End .project-img-->
                                             <div class="project-content">
                                                 <div class="project-title">
-                                                    <h4><a href="<?php echo e(route('singelProject')); ?>">Addressing Wind Energy
+                                                    <h4><a href="<?php echo e(route('singelProject'), false); ?>">Addressing Wind Energy
                                                             Innovation Challenges</a></h4>
                                                 </div>
-                                                <div class="project-cat"><a href="<?php echo e(route('project')); ?>">wind
-                                                        energy</a><a href="<?php echo e(route('project')); ?>">innovations</a>
+                                                <div class="project-cat"><a href="<?php echo e(route('project'), false); ?>">wind
+                                                        energy</a><a href="<?php echo e(route('project'), false); ?>">innovations</a>
                                                 </div>
                                             </div>
                                             <!-- End .project-content -->
@@ -520,17 +527,17 @@
                 <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="true"
                     data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="3000">
                     <div class="client"><a href="javascript:void(0)"> </a><img
-                            src="<?php echo e(asset('assets/images/clients/1.png')); ?>" alt="client" /></div>
+                            src="<?php echo e(asset('assets/images/clients/1.png'), false); ?>" alt="client" /></div>
                     <div class="client"><a href="javascript:void(0)"> </a><img
-                            src="<?php echo e(asset('assets/images/clients/2.png')); ?>" alt="client" /></div>
+                            src="<?php echo e(asset('assets/images/clients/2.png'), false); ?>" alt="client" /></div>
                     <div class="client"><a href="javascript:void(0)"> </a><img
-                            src="<?php echo e(asset('assets/images/clients/3.png')); ?>" alt="client" /></div>
+                            src="<?php echo e(asset('assets/images/clients/3.png'), false); ?>" alt="client" /></div>
                     <div class="client"><a href="javascript:void(0)"> </a><img
-                            src="<?php echo e(asset('assets/images/clients/4.png')); ?>" alt="client" /></div>
+                            src="<?php echo e(asset('assets/images/clients/4.png'), false); ?>" alt="client" /></div>
                     <div class="client"><a href="javascript:void(0)"> </a><img
-                            src="<?php echo e(asset('assets/images/clients/5.png')); ?>" alt="client" /></div>
+                            src="<?php echo e(asset('assets/images/clients/5.png'), false); ?>" alt="client" /></div>
                     <div class="client"><a href="javascript:void(0)"> </a><img
-                            src="<?php echo e(asset('assets/images/clients/6.png')); ?>" alt="client" /></div>
+                            src="<?php echo e(asset('assets/images/clients/6.png'), false); ?>" alt="client" /></div>
                 </div>
             </div>
         </div>
@@ -544,7 +551,7 @@
       ============================
       -->
 <section class="contact contact-1 bg-overlay bg-overlay-theme" id="contact-1">
-    <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/3.jpg')); ?>" alt="background" /></div>
+    <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/3.jpg'), false); ?>" alt="background" /></div>
     <div class="container">
         <div class="contact-panel contact-panel-3">
             <div class="heading heading-light heading-6">
@@ -570,10 +577,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-action"><a class="btn btn--white" href="<?php echo e(route('about')); ?>">learn more <i
+                <div class="contact-action"><a class="btn btn--white" href="<?php echo e(route('about'), false); ?>">learn more <i
                             class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white"
-                        href="<?php echo e(route('faq')); ?>">our core values</a></div>
-                <div class="contact-quote"> <img src="<?php echo e(asset('assets/images/icons/noteicon.png')); ?>" alt="icon" />
+                        href="<?php echo e(route('faq'), false); ?>">our core values</a></div>
+                <div class="contact-quote"> <img src="<?php echo e(asset('assets/images/icons/noteicon.png'), false); ?>" alt="icon" />
                     <p>Receive an accurate quote within 3-5 days when you fill out this form. Or, give us a call: <a
                             href="tel:01061245741">(002) 01061245741</a></p>
                 </div>
@@ -583,7 +590,7 @@
                     <h5 class="card-heading">Request A Quote</h5>
                     <p class="card-desc">We take great pride in everything that we do, control over products allows us
                         to ensure our customers receive the best quality service.</p>
-                    <form class="requestForm" method="post" action="<?php echo e(route('Order')); ?>">
+                    <form class="requestForm" method="post" action="<?php echo e(route('Order'), false); ?>">
                         <?php echo csrf_field(); ?>
                         <div class="mb-20">
                             <div class="row">

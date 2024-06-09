@@ -15,7 +15,8 @@
             </div>
           </div>
         </div>
-        <iframe src="https://maps.google.com/maps?q=Pioneer%20Works&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" width="600" height="450" style="border:0;"></iframe>
+        <!-- <iframe src="https://maps.google.com/maps?q=Pioneer%20Works&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" width="600" height="450" style="border:0;"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3970.7166303774875!2d-0.21441670000000002!3d5.6088056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMzYnMzEuNyJOIDDCsDEyJzUxLjkiVw!5e0!3m2!1sen!2sbd!4v1717562427407!5m2!1sen!2sbd" width="600" height="450" style="border:0;" ></iframe>
       </section>
       <!--
       ============================
@@ -37,10 +38,10 @@
                     <div class="content-bottom">
                       <ul class="list-unstyled contact-infos"> 
                         <li class="contact-info"><i class="energia-phone-Icon"></i>
-                          <p>Emergency Line: <a href="tel:123-456-7890">(002) 01061245741</a></p>
+                          <p>Emergency Line: <a href="tel:123-456-7890">+233 (0) 20 148 2289</a></p>
                         </li>
                         <li class="contact-info"><i class="energia-location-Icon"></i>
-                          <p>Location: <a href="mailto:info@energia.com">Brooklyn, New York, USA		</a></p>
+                          <p>Location: <a href="mailto:info@energia.com">3rd Floor Oswald Building, Off Jerry Rawlings Highway, Adenta SDA Junction, Accra., Accra, Ghana		</a></p>
                         </li>
                         <li class="contact-info"><i class="energia-clock-Icon"></i>
                           <p>Mon - Fri: 8:00 am - 7:00 pm	</p>

@@ -329,17 +329,18 @@
         <div class="carousel owl-carousel carousel-dots dots-side" data-slide="3" data-slide-rs="1" data-autoplay="true"
             data-nav="false" data-dots="true" data-space="30" data-loop="true" data-speed="800">
             <div>
+                
                 <div class="service-panel">
                     <div class="service-icon"><i class="flaticon-004-solar-panel"></i></div>
                     <div class="service-content">
-                        <h4><a href="{{route('singelService')}}">solar panels<br />services</a></h4>
+                        <h4><a href="{{route('service')}}">solar panels<br />services</a></h4>
                         <p>The great thing about solar panels is that they do not require a lot of maintenance. However,
                             still important to get them checked regularly</p>
                         <ul class="list-unstyled advantages-list">
-                            <li>cleaning of inverter</li>
+                            <!-- <li>cleaning of inverter</li>
                             <li>perform shading tests</li>
-                            <li>90 days repairs warranty</li>
-                        </ul><a class="btn btn--secondary" href="{{route('singelService')}}">read more <i
+                            <li>90 days repairs warranty</li> -->
+                        </ul><a class="btn btn--secondary" href="{{route('service')}}">read more <i
                                 class="energia-arrow-right"></i></a>
                     </div>
                 </div>
@@ -349,14 +350,14 @@
                 <div class="service-panel">
                     <div class="service-icon"><i class="flaticon-039-wind-mill"></i></div>
                     <div class="service-content">
-                        <h4><a href="{{route('singelService')}}">wind turbines<br />services</a></h4>
+                        <h4><a href="{{route('service')}}">wind turbines<br />services</a></h4>
                         <p>Wind turbine is an expensive machine, we know very well how important it is that your wind
                             turbine is always up whenever there is wind.</p>
                         <ul class="list-unstyled advantages-list">
-                            <li>proactive is better</li>
+                            <!-- <li>proactive is better</li>
                             <li>lower costs for you</li>
-                            <li>maintenance warranty</li>
-                        </ul><a class="btn btn--secondary" href="{{route('singelService')}}">read more <i
+                            <li>maintenance warranty</li> -->
+                        </ul><a class="btn btn--secondary" href="{{route('service')}}">read more <i
                                 class="energia-arrow-right"></i></a>
                     </div>
                 </div>
@@ -366,14 +367,14 @@
                 <div class="service-panel">
                     <div class="service-icon"><i class="flaticon-013-hydro-power"></i></div>
                     <div class="service-content">
-                        <h4><a href="{{route('singelService')}}">hydropower plants<br />services</a></h4>
+                        <h4><a href="{{route('service')}}">hydropower plants<br />services</a></h4>
                         <p>Hydropower systems are capital intensive assets can produce a significant income provided
                             operated and maintained on high standard.</p>
                         <ul class="list-unstyled advantages-list">
-                            <li>optimization of assets</li>
+                            <!-- <li>optimization of assets</li>
                             <li>operation &amp; maintenance</li>
-                            <li>digitaliztion &amp; automation</li>
-                        </ul><a class="btn btn--secondary" href="{{route('singelService')}}">read more <i
+                            <li>digitaliztion &amp; automation</li> -->
+                        </ul><a class="btn btn--secondary" href="{{route('service')}}">read more <i
                                 class="energia-arrow-right"></i></a>
                     </div>
                 </div>
@@ -383,14 +384,14 @@
                 <div class="service-panel">
                     <div class="service-icon"><i class="flaticon-004-solar-panel"></i></div>
                     <div class="service-content">
-                        <h4><a href="{{route('singelService')}}">solar panels<br />services</a></h4>
+                        <h4><a href="{{route('service')}}">solar panels<br />services</a></h4>
                         <p>The great thing about solar panels is that they do not require a lot of maintenance. However,
                             still important to get them checked regularly</p>
                         <ul class="list-unstyled advantages-list">
-                            <li>cleaning of inverter</li>
+                            <!-- <li>cleaning of inverter</li>
                             <li>perform shading tests</li>
-                            <li>90 days repairs warranty</li>
-                        </ul><a class="btn btn--secondary" href="{{route('singelService')}}">read more <i
+                            <li>90 days repairs warranty</li> -->
+                        </ul><a class="btn btn--secondary" href="{{route('service')}}">read more <i
                                 class="energia-arrow-right"></i></a>
                     </div>
                 </div>

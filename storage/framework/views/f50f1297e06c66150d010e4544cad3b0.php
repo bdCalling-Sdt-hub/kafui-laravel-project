@@ -9,7 +9,7 @@
       -->
 <section class="page-title page-title-14" id="page-title">
     <div class="page-title-wrap bg-overlay bg-overlay-dark-3">
-        <div class="bg-section"><img src="<?php echo e(asset('assets/images/page-titles/18.jpg')); ?>" alt="Background" /></div>
+        <div class="bg-section"><img src="<?php echo e(asset('assets/images/page-titles/18.jpg'), false); ?>" alt="Background" /></div>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -58,10 +58,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-action"><a class="btn btn--primary" href="<?php echo e(route('about')); ?>">learn more <i
+                <div class="contact-action"><a class="btn btn--primary" href="<?php echo e(route('about'), false); ?>">learn more <i
                             class="energia-arrow-right"></i></a><a class="btn btn--bordered btn--white"
-                        href="<?php echo e(route('faq')); ?>">our core values</a></div>
-                <div class="contact-quote contact-quote-3"> <img src="<?php echo e(asset('assets/images/icons/noteicon-2.png')); ?>"
+                        href="<?php echo e(route('faq'), false); ?>">our core values</a></div>
+                <div class="contact-quote contact-quote-3"> <img src="<?php echo e(asset('assets/images/icons/noteicon-2.png'), false); ?>"
                         alt="icon" />
                     <p>Receive an accurate quote within 3-5 days when you fill out this form. Or, give us a call: <a
                             href="tel:01061245741">(002) 01061245741</a></p>
@@ -72,7 +72,7 @@
                     <h5 class="card-heading">Request A Quote</h5>
                     <p class="card-desc">We take great pride in everything that we do, control over products allows us
                         to ensure our customers receive the best quality service.</p>
-                    <form class="requestForm" method="post" action="<?php echo e(route('Order')); ?>">
+                    <form class="requestForm" method="post" action="<?php echo e(route('Order'), false); ?>">
                         <?php echo csrf_field(); ?>
                         <div class="mb-20">
                             <div class="row">

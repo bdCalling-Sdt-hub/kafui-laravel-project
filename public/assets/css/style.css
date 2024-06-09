@@ -72,9 +72,9 @@ custom.css and it will override the style in this file. You have been warned! :)
     #CSS VARIBALES
 \*------------------------------------*/
 :root {
-	--global--color-primary   : #32c36c;
-	--global--color-primary-90: rgba(50, 195, 108, 0.9);
-	--global--color-primary-70: rgba(50, 195, 108, 0.7);
+	--global--color-primary   : #f0ad4e; /*#32c36c*/
+	--global--color-primary-90: rgba(240, 173, 78, 0.9);/*rgba(50, 195, 108, 0.9);*/
+	--global--color-primary-70: rgba(240, 173, 78, 0.7);/*rgba(50, 195, 108, 0.7);*/
 	--global--color-heading   : #253745;
 	--global--color-secondary : #2b3e4b;
 	--global--color-body      : #9b9b9b;
@@ -779,11 +779,19 @@ blockquote .author {
 	background-image: linear-gradient(180deg, #14191c 0%, rgba(20, 25, 28, 0) 82%);
 }
 
-.bg-overlay-theme:before {
+/* .bg-overlay-theme:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#32C36CD9), color-stop(82%, #32C36C));
 	background-image: -o-linear-gradient(top, #32C36CD9 0%, #32C36C 82%);
 	background-image: linear-gradient(180deg, #32C36CD9 0%, #32C36C 82%);
+	f0ad4e
+} */
+
+.bg-overlay-theme:before {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4ed9), color-stop(82%, #f0ad4e));
+	background-image: -o-linear-gradient(top, #f0ad4ed9 0%, #f0ad4e 82%);
+	background-image: linear-gradient(180deg, #f0ad4ed9 0%, #f0ad4e 82%);
 }
+
 
 .bg-overlay-theme2:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #253745), to(#253745E6));
@@ -791,11 +799,18 @@ blockquote .author {
 	background-image: linear-gradient(180deg, #253745 50%, #253745E6 100%);
 }
 
-.bg-overlay-theme3:before {
+/* .bg-overlay-theme3:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#32C36CF2), color-stop(86%, #32C36C));
 	background-image: -o-linear-gradient(top, #32C36CF2 0%, #32C36C 86%);
 	background-image: linear-gradient(180deg, #32C36CF2 0%, #32C36C 86%);
+} */
+
+.bg-overlay-theme3:before {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4ef2), color-stop(86%, #f0ad4e));
+	background-image: -o-linear-gradient(top, #f0ad4ef2 0%, #f0ad4e 86%);
+	background-image: linear-gradient(180deg, #f0ad4ef2 0%, #f0ad4e 86%);
 }
+
 
 .bg-overlay-theme4 {
 	background-color: var(--global--color-heading);
@@ -807,11 +822,18 @@ blockquote .author {
 	background-image: linear-gradient(180deg, #00000000 0%, #1F313F 70%);
 }
 
-.bg-overlay-theme5:before {
+/* .bg-overlay-theme5:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(46%, #32c36c), color-stop(144%, #32c36c5c));
 	background-image: -o-linear-gradient(top, #32c36c 46%, #32c36c5c 144%);
 	background-image: linear-gradient(180deg, #32c36c 46%, #32c36c5c 144%);
+} */
+
+.bg-overlay-theme5:before {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(46%, #f0ad4e), color-stop(144%, #f0ad4e5c));
+	background-image: -o-linear-gradient(top, #f0ad4e 46%, #f0ad4e5c 144%);
+	background-image: linear-gradient(180deg, #f0ad4e 46%, #f0ad4e5c 144%);
 }
+
 
 .bg-overlay-video:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(42%, #1D2A4D03), color-stop(90%, #1D2A4D));
@@ -2340,8 +2362,10 @@ ul.list-icons li i {
 	height           : 64px;
 	margin           : 8px;
 	border-radius    : 50%;
-	border           : 6px solid #32c36c;
-	border-color     : #32c36c transparent #32c36c transparent;
+	/* border           : 6px solid #32c36c;
+	border-color     : #32c36c transparent #32c36c transparent; */
+	border           : 6px solid #f0ad4e;
+	border-color     : #f0ad4e transparent #f0ad4e transparent;
 	-webkit-animation: dualring 1.2s linear infinite;
 	animation        : dualring 1.2s linear infinite;
 }
@@ -2881,15 +2905,15 @@ ul.list-icons li i {
 	transition        : 0.3s ease-in-out;
 }
 
-.header .navbar .navbar-nav>li#contact.active a,
-.header .navbar .navbar-nav>li#contact:hover a {
+.header .navbar .navbar-nav>li.nav-item.active a,
+.header .navbar .navbar-nav>li.nav-item:hover a {
 	color: var(--global--color-primary);
 }
 
 @media screen and (min-width: 992px) {
 
-	.header .navbar .navbar-nav>li#contact.active a::before,
-	.header .navbar .navbar-nav>li#contact:hover a::before {
+	.header .navbar .navbar-nav>li.nav-item.active a::before,
+	.header .navbar .navbar-nav>li.nav-item:hover a::before {
 		-webkit-transform       : scale3d(1, 1, 1);
 		transform               : scale3d(1, 1, 1);
 		-webkit-transform-origin: 0 50%;
@@ -18574,7 +18598,8 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	margin-bottom: 18px;
 	font-family  : var(--global--font-body);
 	font-weight  : 300;
-	font-size    : 34px;
+	/*font-size    : 34px;*/
+	font-size	 : 30px;
 	line-height  : 22px;
 	color        : #929ba2;
 	display      : -webkit-box;
@@ -18593,7 +18618,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 .footer .widget-contact .widget-content .phone a {
 	font-family       : var(--global--font-body);
 	font-weight       : 300;
-	font-size         : 34px;
+	font-size         : 30px;
 	line-height       : 22px;
 	margin-left       : 8px;
 	color             : var(--global--color-white);
@@ -18784,3 +18809,4 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	-o-transition     : 0.3s ease-in-out;
 	transition        : 0.3s ease-in-out;
 }
+

@@ -19,23 +19,23 @@ class ContactController extends Controller
         $validatedData = $request->validated();
         
         // Create a new Contact instance
-        $contact = new Contact();
+       // $contact = new Contact();
         
         // Assign values to the contact object
-        $contact->name = $validatedData['contact-name'];
-        $contact->email = $validatedData['contact-email'];
-        $contact->phone = $validatedData['contact-phone'];
-        $contact->service = $validatedData['contact-service'];
-        $contact->infos = $validatedData['contact-infos'];
+        // $contact->name = $validatedData['contact-name'];
+        // $contact->email = $validatedData['contact-email'];
+        // $contact->phone = $validatedData['contact-phone'];
+        // $contact->service = $validatedData['contact-service'];
+        // $contact->infos = $validatedData['contact-infos'];
        
         // Save the contact to the database
-        $contact->save();
+        //$contact->save();
         Mail::to($adminEmail)->send(new ContactMessage(
-            $contact->name,
-            $contact->email,
-            $contact->phone,
-            $contact->service,
-            $contact->infos
+            $validatedData['contact-name'],
+            $validatedData['contact-email'],
+            $validatedData['contact-phone'],
+            $validatedData['contact-service'],
+            $validatedData['contact-infos']
         ));
         // Optionally, you can return a response indicating success or redirect somewhere
         return response()->json(['message' => 'Contact saved successfully'], 200);

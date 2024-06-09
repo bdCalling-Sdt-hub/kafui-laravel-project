@@ -22,11 +22,11 @@ Route::get('contact',[FrontViewController::class, 'contact'])->name('contact');
 Route::post('message',[ContactController::class, 'post_contact'])->name('post_contact');
 Route::post('/confir/order', [RequestController::class, 'create_request_queat'])->name('Order');
 
-Route::get('/task',[TaskController::class, 'index'])->name('task');
-Route::post('/task/store',[TaskController::class, 'store'])->name('task');
+// Route::get('/task',[TaskController::class, 'index'])->name('task');
+// Route::post('/task/store',[TaskController::class, 'store'])->name('task');
 
 
-Route::get('/task2',[TaskController::class, 'task2']);
-Route::post('/task2/store',[TaskController::class, 'store2'])->name('task');
-Route::get('/task2/view',[TaskController::class, 'view2']);
-Route::get('/task2/destroy2/{id}',[TaskController::class, 'destroy2']);
+// Route::get('/task2',[TaskController::class, 'task2']);
+// Route::post('/task2/store',[TaskController::class, 'store2'])->name('task');
+// Route::get('/task2/view',[TaskController::class, 'view2']);
+// Route::get('/task2/destroy2/{id}',[TaskController::class, 'destroy2']);

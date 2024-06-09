@@ -15,7 +15,8 @@
             </div>
           </div>
         </div>
-        <iframe src="https://maps.google.com/maps?q=Pioneer%20Works&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" width="600" height="450" style="border:0;"></iframe>
+        <!-- <iframe src="https://maps.google.com/maps?q=Pioneer%20Works&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" width="600" height="450" style="border:0;"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3970.7166303774875!2d-0.21441670000000002!3d5.6088056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMzYnMzEuNyJOIDDCsDEyJzUxLjkiVw!5e0!3m2!1sen!2sbd!4v1717562427407!5m2!1sen!2sbd" width="600" height="450" style="border:0;" ></iframe>
       </section>
       <!--
       ============================
@@ -23,29 +24,29 @@
       ============================
       -->
       <section class="testimonial testimonial-5 bg-overlay bg-overlay-white2">
-        <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/wavy-pattern.png')); ?>" alt="background"/></div>
+        <div class="bg-section"><img src="<?php echo e(asset('assets/images/background/wavy-pattern.png'), false); ?>" alt="background"/></div>
         <div class="container">
           <div class="contact-panel contact-panel-2">
             <div class="row">
               <div class="col-12 col-lg-5 img-card-holder">
                 <div class="img-card img-card-2 bg-overlay bg-overlay-theme">
-                  <div class="bg-section"><img src="<?php echo e(asset('assets/images/contact/2.jpg')); ?>" alt="image"/></div>
+                  <div class="bg-section"><img src="<?php echo e(asset('assets/images/contact/2.jpg'), false); ?>" alt="image"/></div>
                   <div class="card-content">
                     <div class="content-top">
-                      <p>As a world wide distributor of solar supplies we endeavor provide fast and knowledgeable service, we can get all the materials you need by sea or air.</p><a href="<?php echo e(route('contact')); ?>"><i class="energia-arrow-right"></i>global office map</a>
+                      <p>As a world wide distributor of solar supplies we endeavor provide fast and knowledgeable service, we can get all the materials you need by sea or air.</p><a href="<?php echo e(route('contact'), false); ?>"><i class="energia-arrow-right"></i>global office map</a>
                     </div>
                     <div class="content-bottom">
                       <ul class="list-unstyled contact-infos"> 
                         <li class="contact-info"><i class="energia-phone-Icon"></i>
-                          <p>Emergency Line: <a href="tel:123-456-7890">(002) 01061245741</a></p>
+                          <p>Emergency Line: <a href="tel:123-456-7890">+233 (0) 20 148 2289</a></p>
                         </li>
                         <li class="contact-info"><i class="energia-location-Icon"></i>
-                          <p>Location: <a href="mailto:info@energia.com">Brooklyn, New York, USA		</a></p>
+                          <p>Location: <a href="mailto:info@energia.com">3rd Floor Oswald Building, Off Jerry Rawlings Highway, Adenta SDA Junction, Accra., Accra, Ghana		</a></p>
                         </li>
                         <li class="contact-info"><i class="energia-clock-Icon"></i>
                           <p>Mon - Fri: 8:00 am - 7:00 pm	</p>
                         </li>
-                      </ul><a class="btn btn--white" href="<?php echo e(route('about')); ?>">About us <i class="energia-arrow-right"></i></a>
+                      </ul><a class="btn btn--white" href="<?php echo e(route('about'), false); ?>">About us <i class="energia-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -55,7 +56,7 @@
                   <div class="contact-body">
                     <h5 class="card-heading">get in touch</h5>
                     <p class="card-desc">We take great pride in everything that we do, control over products allows us to ensure our customers receive the best quality service.</p>
-                    <form class="contactForm" method="post" action="<?php echo e(route('post_contact')); ?>">
+                    <form class="contactForm" method="post" action="<?php echo e(route('post_contact'), false); ?>">
                       <?php echo csrf_field(); ?>
                       <div class="row">
                         <div class="col-12 col-md-6">
@@ -101,7 +102,7 @@
                   <div class="counter-holder">
                     <div class="counter-num"> <span class="counting" data-counterup-nums="25" data-counterup-beginat="12">25</span></div>
                     <div class="counter-img">
-                      <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg')); ?>" alt="image"/></div><i class="flaticon-020-factory"></i>
+                      <div class="bg-section"><img src="<?php echo e(asset('assets/images/counters/1.jpg'), false); ?>" alt="image"/></div><i class="flaticon-020-factory"></i>
                     </div>
                   </div>
                   <div class="counter-desc">
@@ -142,21 +143,21 @@
               </div>
               <div class="testimonial-thumbs">
                 <div class="testimonial-thumb active" data-hover="">
-                  <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/1.jpg')); ?>" alt="Testimonial Author"/></div>
+                  <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/1.jpg'), false); ?>" alt="Testimonial Author"/></div>
                   <div class="thumb-body"> 
                     <h6>sami wade</h6>
                     <p>promina</p>
                   </div>
                 </div>
                 <div class="testimonial-thumb" data-hover="">
-                  <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/2.jpg')); ?>" alt="Testimonial Author"/></div>
+                  <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/2.jpg'), false); ?>" alt="Testimonial Author"/></div>
                   <div class="thumb-body"> 
                     <h6>john peter</h6>
                     <p>optima inc</p>
                   </div>
                 </div>
                 <div class="testimonial-thumb" data-hover="">
-                  <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/3.jpg')); ?>" alt="Testimonial Author"/></div>
+                  <div class="thumb-img"> <img src="<?php echo e(asset('assets/images/testimonial/3.jpg'), false); ?>" alt="Testimonial Author"/></div>
                   <div class="thumb-body"> 
                     <h6>sony blake</h6>
                     <p>koira ind</p>
